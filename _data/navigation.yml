@@ -1,0 +1,19 @@
+- name: tekst
+  link: /whatever/
+- name: Literatuur
+  url: /overzicht/
+  subitems:
+  - name: Papiaments
+    link: /overzicht/papiaments/
+  - name: Onderzoek
+    link: /overzicht/onderzoek/
+  - name: VMBO
+    link: /overzicht/VMBO/
+  - name: Stichting Lezen
+    link: /overzicht/stichting-lezen/
+  - name: Leesmotivatie
+    link: /overzicht/leesmotivatie/
+  - name: Beleidsplan
+    link: /overzicht/beleidsplan/
+  - name: Engelstalig
+    link: /overzicht/engelstalig/

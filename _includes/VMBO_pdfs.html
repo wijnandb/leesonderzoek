@@ -1,0 +1,10 @@
+
+
+<h2>Lezen in het VMBO</h2>
+{% for file in site.static_files %}
+    {% if file.path contains 'vmbo' %}
+        <a href="{{ site.baseurl }}{{ file.path }}" target="_blank">
+          <h3>{{ file.name }}</h3></a>
+    {% endif %}
+{% endfor %}
+<br \><br \>
