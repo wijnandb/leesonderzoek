@@ -1,0 +1,17 @@
+
+{% for file in site.static_files %}
+    {% if file.path contains page.onderwerp %}
+      {% if file.path contains ".pdf" %}
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="{{ site.baseurl }}{{ file.path }}" target="_blank">
+              <h3>{{ file.name | remove: ".pdf" | replace: "_", " " | downcase | capitalize}}</h3></a>
+          </div>
+          <div class="col-sm-6">
+              <a href="{{ site.baseurl }}{{ file.path }}" target="_blank"><img src="{{ site.baseurl }}/assets/images/{{ file.name | replace: ".pdf", ".png" }}" width="300px"></a>
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+{% endfor %}
+<br \><br \>
