@@ -1,0 +1,21 @@
+{% assign trefwoord = page.trefwoord | downcase %}
+
+    <ul>
+      {% for publicatie in site.publicaties %}
+        {% for tag in publicatie.tags %}
+        {% assign dc_tag = tag | downcase %}
+          {% if dc_tag == trefwoord %}
+            <li>
+                <a href="{{publicatie.url}}">{{ publicatie.title | replace: "_", " " | remove: ".pdf" }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+
+{% comment %}
+Going over all publications, checking which have a tag corresponding with the topic of
+this page. Would be even better to make this generic. Make it an include!!
+That way it is generic. Only need to create a folder and an index.html page
+with a topic to create a new topic page with publications.
+{% endcomment %}

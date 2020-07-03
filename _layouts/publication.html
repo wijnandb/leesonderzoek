@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% if page.tags %}
+  {% for tag in page.tags %}
+   <a href="/artikelen/{{ tag | slugify }}">{{ tag }}</a>
+  {% endfor %}
+{% endif %}
+  <br />
+  <p>{{ page.content }}</p>
+
+<a href="/assets/pdf/{{ page.title }}"><img src="/assets/images/{{ page.title | remove: ".pdf" }}.png"></a>

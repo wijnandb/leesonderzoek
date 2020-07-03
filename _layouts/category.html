@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="blog list">
+    <h1>Filed Under <small>#{{ page.category }}</small></h1>
+
+    {% for page in site.pages[page.category] %}
+        {{ page.title }}
+    {% endfor %}
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hoe vergroot je de leesmotivatie van leerlingen?
 ---
 

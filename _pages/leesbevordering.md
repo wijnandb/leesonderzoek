@@ -11,5 +11,4 @@ dat nodig? Begrijpend lezen is tegenwoordig dodelijk voor het leesplezier. Te ve
 Leerkracht groep 4/5
 
 
-uit: DUO Onderwijsonderzoek & Advies (2019). Leesbevordering basisonderwijs 2019. Stand
-van zaken. Amsterdam: Stichting Lezen.
+uit: DUO Onderwijsonderzoek & Advies (2019). Leesbevordering basisonderwijs 2019. Stand van zaken. Amsterdam: Stichting Lezen.

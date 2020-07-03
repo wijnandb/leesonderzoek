@@ -1,0 +1,12 @@
+---
+layout: default
+title: Alle publicaties
+---
+
+<ul>
+  {% for publicatie in site.publicaties %}
+    <li>
+        <a href="{{publicatie.url}}">{{ publicatie.title | replace: "_", " " | remove: ".pdf" }}</a>
+    </li>
+  {% endfor %}
+</ul>

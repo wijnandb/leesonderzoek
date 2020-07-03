@@ -1,2 +1,12 @@
-include:
- - _pages
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+permalink: /:categories/:title/
+
+plugins:
+  [jekyll-paginate]
+
+collections     :
+  publicaties   :
+    output      : true
+    permalink   : /:collection/:path
