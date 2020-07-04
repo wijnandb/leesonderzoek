@@ -1,4 +1,4 @@
-- name: Artikelen
+- name: Artikelen per trefwoord
   link: /artikelen/
   subitems:
   - name: Papiamentu
@@ -15,3 +15,5 @@
     link: /artikelen/beleidsplan/
   - name: Engelstalig
     link: /artikelen/engelstalig/
+- name: Alle artikelen
+  link: /artikelen/
