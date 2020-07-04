@@ -17,7 +17,7 @@ relatie tussen het algemene lezen en het lezen van fi ctie? Het gaat om onderzoe
 naar leesgedrag en leesprocessen, om interventies en om praktijkervaringen. En om
 hun wisselwerkingen. Een belangrijk interventieproject voor het vmbo is Bazar.
 Mia Stokmans heeft voor Stichting Lezen onderzocht hoe effectief dat project is
-([De casus Bazar]({% link De_casus_bazar.md }). Effectmeting van een leesbevorderingsproject).
+([De casus Bazar. Effectmeting van een leesbevorderingsproject]({% link _publicaties/De_casus_bazar.md %}).
 De bundel Lezen in het vmbo wil een oriëntatie geven over onderzoek naar leesgedrag en leesprocessen, interventie en praktijk van het lezen in het vmbo. Dat lezen
 betreft het lezen van fi ctie en zakelijke teksten. De scheidslijn tussen onderzoek, interventie en praktijk is dun. Het resultaat van interventies kan worden onderzocht,
 praktijkervaringen zijn vormen van informeel onderzoek, en resultaten van onderzoek bieden weer mogelijkheden voor het opzetten en bijstellen van interventies en
