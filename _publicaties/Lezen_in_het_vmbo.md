@@ -5,7 +5,7 @@ categories: []
 tags: [Stichting Lezen, onderzoek, VMBO]
 ---
 
-## INLEIDING
+## Inleiding
 De samenvoeging van het voormalige vbo en mavo tot het vmbo is een van de grote
 onderwijsveranderingen van de laatste decennia. Daarmee ontstond een schooltype
 dat meer dan de helft van de scholieren van het secundair onderwijs bedient. 
@@ -23,9 +23,9 @@ relatie tussen het algemene lezen en het lezen van fictie?
 
 Het gaat om onderzoek
 naar leesgedrag en leesprocessen, om interventies en om praktijkervaringen. En om
-hun wisselwerkingen. Een belangrijk interventieproject voor het vmbo is Bazar.
+hun wisselwerkingen. Een belangrijk interventieproject voor het vmbo is [Bazar]({% link _publicaties/De_casus_bazar.md %}).
 Mia Stokmans heeft voor Stichting Lezen onderzocht hoe effectief dat project is
-([De casus Bazar. Effectmeting van een leesbevorderingsproject]({% link _publicaties/De_casus_bazar.md %}).
+(De casus Bazar. Effectmeting van een leesbevorderingsproject).
 
 De bundel Lezen in het vmbo wil een oriëntatie geven over onderzoek naar leesgedrag en leesprocessen, interventie en praktijk van het lezen in het vmbo. Dat lezen
 betreft het lezen van fictie en zakelijke teksten. De scheidslijn tussen onderzoek, interventie en praktijk is dun. Het resultaat van interventies kan worden onderzocht,
@@ -43,7 +43,7 @@ Meer gericht op tekstbegrip
 zijn de onderzoeken van Jentine Land, Ted Sanders, Huub van den Bergh en Hilde
 Hacquebord. 
 
-Dick Schram richt zich op het begrijpen van fi ctie-teksten. Martine
+Dick Schram richt zich op het begrijpen van fictie-teksten. Martine
 Braaksma geeft een overzicht van het – overigens schaarse – onderzoek naar lezen
 en leesgedrag van vmbo-leerlingen. 
 
