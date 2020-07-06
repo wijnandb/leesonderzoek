@@ -1,2 +1,6 @@
 _site/*
 .jekyll-cache/*
+/bash_scripts/
+/new_pdf/
+/txt_from_pdf/
+/assets/pdf/new/

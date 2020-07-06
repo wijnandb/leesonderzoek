@@ -1,12 +1,21 @@
 ---
 layout: default
 ---
+
+
 {% if page.tags %}
   {% for tag in page.tags %}
    <a href="/artikelen/{{ tag | slugify }}">{{ tag }}</a>
   {% endfor %}
 {% endif %}
   <br />
-  <p>{{ page.content }}</p>
-
-<a href="/assets/pdf/{{ page.title }}"><img src="/assets/images/{{ page.title | remove: ".pdf" }}.png"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+          <p>{{ page.content }}</p>
+      </div>
+      <div class="col-sm-6">
+          <p><a href="/assets/pdf/{{ page.title }}"><img src="/assets/images/{{ page.title | remove: ".pdf" }}.png" width="100%" alt="{{ page.title | replace: "_", " " | remove: ".pdf" }}"></a></p>
+      </div>
+    </div>
+  </div>
