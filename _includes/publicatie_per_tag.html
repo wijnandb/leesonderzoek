@@ -6,7 +6,7 @@
         {% assign dc_tag = tag | downcase %}
           {% if dc_tag == trefwoord %}
             <li>
-                <a href="{{publicatie.url}}">{{ publicatie.title | replace: "_", " " | remove: ".pdf" }}</a>
+                <a href="{{ site.baseurl }}{{publicatie.url}}">{{ publicatie.title | replace: "_", " " | remove: ".pdf" }}</a>
             </li>
           {% endif %}
         {% endfor %}

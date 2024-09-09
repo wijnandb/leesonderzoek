@@ -7,9 +7,9 @@ Doesn't work with collections, only with posts, so not using it currently
         <ul class="pagination">
             {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
-                    <li class="page-item"><a class="page-link" href="/blog">&laquo;</a>
+                    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/blog">&laquo;</a>
                 {% else %}
-                    <li class="page-item"><a class="page-link" href="/blog/page/{{ paginator.previous_page }}">&laquo;</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/blog/page/{{ paginator.previous_page }}">&laquo;</a></li>
                 {% endif %}
             {% else %}
                 <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
@@ -20,13 +20,13 @@ Doesn't work with collections, only with posts, so not using it currently
                     {% if paginator.page == i %}
                         <li class="page-item active"><a class="page-link" href="#">{{ i }}</a></li>
                     {% else %}
-                        <li class="page-item"><a class="page-link" href="/">{{ i }}</a></li>
+                        <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/">{{ i }}</a></li>
                     {% endif %}
                 {% else %}
                     {% if paginator.page == i %}
                         <li class="page-item active"><a class="page-link" href="#">{{ i }}</a></li>
                     {% else %}
-                        <li class="page-item"><a class="page-link" href="/blog/page/{{ i }}">{{ i }}</a></li>
+                        <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/blog/page/{{ i }}">{{ i }}</a></li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
