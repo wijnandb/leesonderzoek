@@ -5,7 +5,7 @@ layout: default
 
 {% if page.tags %}
   {% for tag in page.tags %}
-   <a href="/artikelen/{{ tag | slugify }}">{{ tag }}</a>
+   <a href="{{ site.baseurl }}/artikelen/{{ tag | slugify }}">{{ tag }}</a>
   {% endfor %}
 {% endif %}
   <br />
@@ -15,7 +15,7 @@ layout: default
           <p>{{ page.content }}</p>
       </div>
       <div class="col-sm-6">
-          <p><a href="/assets/pdf/{{ page.title }}"><img src="/assets/images/{{ page.title | remove: ".pdf" }}.png" width="100%" alt="{{ page.title | replace: "_", " " | remove: ".pdf" }}"></a></p>
+          <p><a href="{{ site.baseurl }}/assets/pdf/{{ page.title }}"><img src="{{ site.baseurl }}/assets/images/{{ page.title | remove: ".pdf" }}.png" width="100%" alt="{{ page.title | replace: "_", " " | remove: ".pdf" }}"></a></p>
       </div>
     </div>
   </div>
