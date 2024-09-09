@@ -1,19 +1,19 @@
 - name: Artikelen per trefwoord
-  link: /artikelen/
+  link: "{{ site.baseurl }}/artikelen/"
   subitems:
   - name: Papiamentu
-    link: /artikelen/papiamentu/
+    link: "{{ site.baseurl }}/artikelen/papiamentu/"
   - name: Onderzoek
-    link: /artikelen/onderzoek/
+    link: "{{ site.baseurl }}/artikelen/onderzoek/"
   - name: VMBO
-    link: /artikelen/vmbo/
+    link: "{{ site.baseurl }}/artikelen/vmbo/"
   - name: Stichting Lezen
-    link: /artikelen/stichting-lezen/
+    link: "{{ site.baseurl }}/artikelen/stichting-lezen/"
   - name: Leesmotivatie
-    link: /artikelen/leesmotivatie/
+    link: "{{ site.baseurl }}/artikelen/leesmotivatie/"
   - name: Beleidsplan
-    link: /artikelen/beleidsplan/
+    link: "{{ site.baseurl }}/artikelen/beleidsplan/"
   - name: Engelstalig
-    link: /artikelen/engelstalig/
+    link: "{{ site.baseurl }}/artikelen/engelstalig/"
 - name: Alle artikelen
-  link: /artikelen/
+  link: "{{ site.baseurl }}/artikelen/"
